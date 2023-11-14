@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+}
+
+.body_container {
+    min-height: 80vh;
+    height: 80vh;
+    display: flex;
+    justify-content: space-evenly;
+    .product_list {
+        height: 100%;
+        width: 25%;
+        border: 1px solid black;
+        background-color: aquamarine;
+    }
+    .cart {
+        height: 100%;
+        width: 65%;
+        border: 1px solid black;
+        background-color: bisque;
+    }
+}
+
+.footer {
+    border: 3px solid black;
+    height: 100px;
+}
+
+table {
+    width: 600px;
+    th, td {
+        width: 100px;
+        text-align: center;
+    }
+}
